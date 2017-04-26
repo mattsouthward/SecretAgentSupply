@@ -66,3 +66,52 @@ nav a {
   color: white;
   text-decoration: none;
 }
+
+/* Main section */
+.product-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.product {
+  width: 30%;
+}
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+}
+.product img {
+  max-width: 9rem;
+}
+.product span {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.info-item {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+.info-heading {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 0;
+}
