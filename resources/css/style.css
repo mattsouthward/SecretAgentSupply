@@ -135,6 +135,12 @@ footer {
   .product{
     width: 47%;
   }
+  #banner-text-box {
+    width: 15rem;
+  }
+  #banner-text-box h2 {
+    font-size: 1.5rem;
+  }
   #glasses {
     display: none;
   }
