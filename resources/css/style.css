@@ -145,3 +145,53 @@ footer {
     display: none;
   }
 }
+@media only screen and (max-width: 470px) {
+  .product {
+    width: 90%;
+  }
+  #banner {
+    display: flex;
+    align-items: flex-end;
+  }
+  #banner .container {
+    /*max-width: 100%;*/
+    width: 100%;
+    margin: 0 0;
+    bottom: 0;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  #banner-text-box {
+    position: static;
+    width: auto;
+  }
+  #banner-text-box h2 {
+    font-size: 1rem;
+  }
+  #banner-text-box h4 {
+    font-size: 0.77rem;
+  }
+  #watch {
+    display: none;
+  }
+  main.container {
+    max-width: 90%;
+  }
+  .product-gallery {
+    justify-content: center;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .info-item {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    text-align: center;
+  }
+}
