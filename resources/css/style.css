@@ -5,13 +5,16 @@ html {
 body {
   font-family: Helvetica, sans-serif;
 }
+h2, h4 {
+  font-weight: bold;
+  color: white;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
-h2, h4 {
-  font-weight: bold;
-  color: white;
+.med-nav {
+  display: none;
 }
 
 /* Header with logo and name */
@@ -114,4 +117,25 @@ footer {
   background-color: black;
   color: white;
   padding: 5rem 0;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 698px;
+    margin: 0 auto;
+  }
+  .fs-nav {
+    display: none;
+  }
+  .med-nav {
+    display: block;
+  }
+  .med-nav nav {
+    display: flex;
+  }
+  .product{
+    width: 47%;
+  }
+  #glasses {
+    display: none;
+  }
 }
